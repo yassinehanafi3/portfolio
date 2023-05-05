@@ -9,6 +9,10 @@
     border-bottom-width: 3.1px;
     width: 100%;
 }
+.card {
+    background-color: transparent!important;
+    border: 1px solid grey;
+}
 
 .card-title {
     color: white;

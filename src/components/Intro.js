@@ -13,7 +13,7 @@ export function Intro() {
             </div>
             <div className="intro-paragraph" style={{marginTop : 10}}>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6">
                     <p style={{paddingTop : 20}}>
                         I'm a passionate software engineering student based in Marrakech
                         with a strong background in programming and solid experience in
@@ -22,8 +22,8 @@ export function Intro() {
                     <ContactModal/>
 
                     </div>
-                    <div className="col-6">
-                    <img className="intro-img" src={myImage} alt="profile" />
+                    <div className="col-md-6">
+                        <img className="intro-img img-fluid" src={myImage} alt="profile" />
                     </div>
                 </div>
                 

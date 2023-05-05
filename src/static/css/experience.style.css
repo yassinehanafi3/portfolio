@@ -75,3 +75,8 @@
     text-decoration: none;
     color: #e0aa17;
   }
+
+  .tablinks {
+    background-color: transparent;
+
+  }
