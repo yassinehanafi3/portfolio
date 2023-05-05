@@ -1,0 +1,31 @@
+.title {
+    color: #e0aa17;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: 100%;
+}
+
+.paragraph {
+    color: #A0ABC9;
+    font-size: 14px;
+    max-width: 100%;
+    text-align: justify;
+    font-family: monospace;
+}
+
+.technologiesList {
+    list-style: none;
+    display: table;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.technologiesList li {
+    display: inline;
+    padding-right: 10px;
+}
+.technologiesList li img {
+    height: 30;
+    width: 100;
+}

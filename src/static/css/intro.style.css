@@ -1,0 +1,62 @@
+.intro-wrapper {
+    padding: 100px;
+    padding-bottom: 25px;
+
+  }
+  
+  .intro-title {
+    width: 19ch;
+    animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: #A0ABC9;
+    font-weight: 700;
+  }
+  
+  .intro-paragraph {
+    color: #A0ABC9;
+    font-size: 16px;
+    max-width: 100%;
+    text-align: justify;
+    font-family: monospace;
+}
+.intro-img {
+  max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+    border: none;
+}
+
+.intro-button {
+    margin-top: 10px;
+    color: #e0aa17;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: #e0aa17 1px solid;
+    border-radius: 5%;
+  }
+
+  
+  .intro-name {
+    color: #e0aa17;
+  }
+
+
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  

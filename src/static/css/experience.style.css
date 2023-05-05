@@ -1,0 +1,77 @@
+.experience-wrapper {
+  margin-bottom: 50px;
+}
+
+.title {
+    color: #e0aa17;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: 100%;
+}
+
+.tab {
+    float: left;
+    border: none;
+    outline: none;
+    width: 30%;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    color: #A0ABC9;
+    padding: 16px 14px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+  
+  /* Change background color of buttons on hover */
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    color: #e0aa17;
+    border-right: #e0aa17 1px solid;
+
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+
+.job-title {
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+
+.job-date {
+    font-size: 14px;
+    padding: 5px 0px;
+    color: grey;
+
+}
+
+.job-description {
+    color: #A0ABC9;
+    font-size: 12px;
+    max-width: 100%;
+    text-align: justify;
+    font-family: monospace;
+}
+
+  a {
+    text-decoration: none;
+    color: #e0aa17;
+  }

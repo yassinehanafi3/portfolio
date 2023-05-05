@@ -1,0 +1,25 @@
+.projects-wrapper {
+    margin-bottom: 50px;
+  }
+  
+.title {
+    color: #e0aa17;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: 100%;
+}
+
+.card-title {
+    color: white;
+    font-size: 16px;
+}
+.card-text {
+    color: #A0ABC9;
+    font-size: 12px;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    z-index: 1;
+  }
