@@ -32,15 +32,6 @@
     border: none;
 }
 
-.intro-button {
-    margin-top: 10px;
-    color: #e0aa17;
-    background-color: transparent;
-    padding: 8px 16px;
-    border: #e0aa17 1px solid;
-    border-radius: 5%;
-  }
-
   
   .intro-name {
     color: #e0aa17;

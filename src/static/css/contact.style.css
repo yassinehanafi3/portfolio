@@ -1,0 +1,17 @@
+.contact-button {
+    margin-top: 10px;
+    color: #e0aa17;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: #e0aa17 1px solid;
+    border-radius: 5%;
+}
+
+.modal {
+    background-color: transparent!important;
+}
+
+.modal-header, .modal-body, .modal-title, .modal-form  {
+    background-color: white!important;
+    color: #0a192f;
+}

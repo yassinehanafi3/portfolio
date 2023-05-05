@@ -5,10 +5,11 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
       <div className="container row">
         <div className="offset-2 col-md-8">
         <Intro/>
@@ -20,6 +21,7 @@ function App() {
         <SideBar intro="intro" about="about" experience="experience" projects="projects"/>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

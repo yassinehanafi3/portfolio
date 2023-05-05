@@ -1,0 +1,12 @@
+.footer-wrapper {
+    color: #A0ABC9;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #e0aa17;
+}

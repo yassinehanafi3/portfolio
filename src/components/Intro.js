@@ -1,6 +1,7 @@
 import React from "react";
 import '../static/css/intro.style.css';
 import myImage from '../static/images/img.jpg';
+import ContactModal from "./ContactModal";
 
 
 
@@ -18,7 +19,7 @@ export function Intro() {
                         with a strong background in programming and solid experience in
                         software development.
                     </p>
-                    <button className="intro-button">Say Hi!</button>
+                    <ContactModal/>
 
                     </div>
                     <div className="col-6">
