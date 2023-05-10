@@ -1,7 +1,6 @@
 import React from "react";
-import '../static/css/projects.style.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import '../../static/css/projects.style.css';
+import { ProjectCard } from "./ProjectCard";
 
 const projects = [
     {
@@ -47,35 +46,7 @@ export function Projects() {
             <br />
             <div className="row row-cols-1 row-cols-md-3 d-flex align-items-stretch">
                 {projects.map(item => (
-                    <div className="col" style={{marginBottom : 15}}>
-                        <div className="card h-100">
-                            <div className="card-body">
-                                <h5 className="card-title" style={{paddingBottom : 10}}>
-                                    <div className="row">
-                                        <div className="col-9">
-                                        {item.title}
-                                        </div>
-                                        <div className="col-3">
-                                        <a href={item.github}>
-                                        <FontAwesomeIcon icon={faGithub} className="fa fa-github" />
-                                    </a>
-                                        </div>
-                                    </div>
-                                </h5>
-                                <p className="card-text">
-                                    <p>
-                                    {item.description}
-
-                                    </p>
-                                    <p>
-                                    <strong>{item.outils}</strong>
-                                    </p>
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <ProjectCard props={item}/>
                 ))}
             </div>
         </div>

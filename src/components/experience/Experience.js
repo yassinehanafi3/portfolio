@@ -1,5 +1,6 @@
 import React from "react";
-import '../static/css/experience.style.css';
+import '../../static/css/experience.style.css';
+import { ExperienceContent } from "./ExperienceContent";
   
 const experiences = [
     {
@@ -30,20 +31,12 @@ export function Experience() {
             <h3 className="title">/experience</h3>
             <br />
             <div className="tab" style={{paddingTop : 10}} >
-                <button className="tablinks active" onClick={(e) => {openExperience(e, "CEGEDIM")}}>CEGEDIM</button>
-                <button className="tablinks" onClick={(e) => {openExperience(e, "MEN")}}>Direction Provenciale de l'éducation nationale</button>
+                {experiences.map(item => (
+                    <button className={"tablinks " + (item.active ? "active":"")} onClick={(e) => {openExperience(e, item.id)}}>{item.fullEntrepriseTitle}</button>
+                ))}
             </div>
             {experiences.map(item => (
-                <div id={item.id} className={"tabcontent " + (item.active ? 'active' : '')} >
-                    <div className="job-title" style={{paddingTop : 10}}>{item.title} <a href={item.link}>@{item.id}</a>  </div>
-                    <div className="job-date">{item.date}</div>
-                    <div className="job-description">
-                    <p>{item.description}</p>
-                    <p> 
-                        <strong>{item.outils}</strong> 
-                    </p>
-                    </div>
-                </div>
+                <ExperienceContent props={item}/>
             ))}
             <br />
         </div>

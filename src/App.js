@@ -3,8 +3,8 @@ import { SideBar } from './components/SideBar';
 import { Intro } from './components/Intro';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import { About } from './components/About';
-import { Experience } from './components/Experience';
-import { Projects } from './components/Projects';
+import { Experience } from './components/experience/Experience';
+import { Projects } from './components/projects/Projects';
 import { Footer } from './components/Footer';
 
 function App() {
