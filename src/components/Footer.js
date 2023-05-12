@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
 export function Footer() {
     return(
         <div className="footer-wrapper">
-             <footer> <small>Copyright &copy; {currentYear} <span className="author">Yassine EL HANAFI</span>. All Rights Reserved</small> </footer> 
+             <footer> <div>Copyright &copy; {currentYear} <span className="author">Yassine EL HANAFI</span>. All Rights Reserved</div> </footer> 
         </div>
     );
 }

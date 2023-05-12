@@ -19,12 +19,12 @@ export function About() {
                 </ul>
                 <p>Here are some technologies I have been working with:</p>
                 <ul className="technologiesList">
-                    <li><img height={30} width={80} src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/></li>
-                    <li><img height={30} width={80} src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/></li>
-                    <li><img height={30} width={80} src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></li>
-                    <li><img height={30} width={80} src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=yellow"/></li>
-                    <li><img height={30} width={80} src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/></li>
-                    <li><img height={30} width={80} src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/></li>
+                    <li><img alt="Spring" height={30} width={80} src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/></li>
+                    <li><img alt="Angular" height={30} width={80} src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/></li>
+                    <li><img alt="React" height={30} width={80} src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></li>
+                    <li><img alt="Python" height={30} width={80} src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=yellow"/></li>
+                    <li><img alt="Node.Js" height={30} width={80} src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/></li>
+                    <li><img alt="C++" height={30} width={80} src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/></li>
                     
                 </ul>
             </div>

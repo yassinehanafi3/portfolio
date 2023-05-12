@@ -24,10 +24,9 @@
     font-family: monospace;
 }
 .intro-img {
-    max-width: 300px;
     height: auto;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
     box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
     border: none;
 }

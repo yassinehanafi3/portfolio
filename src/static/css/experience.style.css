@@ -57,15 +57,15 @@
 }
 
 .job-date {
-    font-size: 14px;
-    padding: 5px 0px;
+    font-size: 16px;
+    padding: 10px 0px;
     color: grey;
 
 }
 
 .job-description {
     color: #A0ABC9;
-    font-size: 12px;
+    font-size: 14px;
     max-width: 100%;
     text-align: justify;
     font-family: monospace;
